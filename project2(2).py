@@ -5,7 +5,7 @@ widthImg=480
 heightImg=640
 
 #url = "http://192.168.0.101:8080/video"
-cap=cv2.VideoCapture(0)
+cap=cv2.VideoCapture(0) # use 1 for secondary webcam and url for IP WebCam
 cap.set(3,widthImg)
 cap.set(4,heightImg)
 cap.set(10,150)
