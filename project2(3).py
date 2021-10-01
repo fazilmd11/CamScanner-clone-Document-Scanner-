@@ -74,7 +74,6 @@ def reorder(myPoints):
     diff = np.diff(myPoints,axis=1)
     myPointsNew[1] = myPoints[np.argmin(diff)]
     myPointsNew[2] = myPoints[np.argmax(diff)]
-    # print("newpoints",myPointsNew)
     return myPointsNew
 
 def getWarp(img,biggest):
